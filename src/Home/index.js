@@ -2,6 +2,10 @@ import React from 'react'
 import {
     Bod,
     Splash,
+    Banner,
+    Feature,
+    Portfolio,
+    CTA,
     // SplashImg
 } from './styles'
 
@@ -12,21 +16,19 @@ const Home = () => {
                 <h1 id='Name'>AGI</h1>
                 <p></p>
             </Splash>
-            {/* <Banner>
-
+            <Banner>
+                <h3>AG international</h3>
+                <p>Web Enabled Real Estate Brokerage</p>
             </Banner>
-            <Feature1>
+            <Feature>
 
-            </Feature1>
-            <Feature2>
-
-            </Feature2>
+            </Feature>
             <Portfolio>
 
             </Portfolio>
-            <Contact>
+            <CTA>
 
-            </Contact> */}
+            </CTA>
         </Bod>
         
     )

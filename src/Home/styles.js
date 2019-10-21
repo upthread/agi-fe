@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Bod = styled.section`
-    background-color: #183026;
+    background-color: #221E1F;
     background-image: url("images/overlay.png"), url("../../images/bg.jpg");
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -24,7 +24,7 @@ export const Splash  = styled.section`
     align-content: center; 
     height: 100vh;
     
-    background-color: #183026;
+    background-color: #221E1F;
     background-image: url("aaron-huber-s95oB2n9jng-unsplash.jpg");
     background-repeat: repeat, no-repeat;
     background-size: cover;
@@ -34,9 +34,69 @@ export const Splash  = styled.section`
         text-align: center;
         color: white;
         font-size: 75px;
+        font-family: serif;
     }
 
     img {
         max-width: 100%; 
     }
+
 `
+
+export const Banner = styled.section`
+
+    display: flex;
+    flex-direction: column 
+    justify-content: center;
+    align-content: center; 
+    height: 100vh;
+
+    background-color: #726D69;
+
+    h3 {
+        text-align: center; 
+        color: white;
+        font-size: 50px; 
+        font-family: serif
+    }
+
+    p {
+        text-align:center; 
+        color: white;
+        font-size: 25px
+        font-family: serif;
+    }
+    
+`
+
+export const Feature = styled.section`
+    display: flex;
+    flex-direction: column 
+    justify-content: center;
+    align-content: center; 
+    height: 100vh;
+
+    background-color: #9e554f;
+`
+
+export const Portfolio = styled.section`
+    display: flex;
+    flex-direction: column 
+    justify-content: center;
+    align-content: center; 
+    height: 100vh;
+
+    background-color: #726D69;
+`
+
+export const CTA = styled.section`
+    display: flex;
+    flex-direction: column 
+    justify-content: center;
+    align-content: center; 
+    height: 100vh;
+
+    background-color: #A87C69 ;
+`
+
+
