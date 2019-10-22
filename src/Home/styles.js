@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Bod = styled.section`
+export const Body = styled.section`
     background-color: #221E1F;
     background-image: url("images/overlay.png"), url("../../images/bg.jpg");
     background-repeat: repeat, no-repeat;
@@ -32,13 +32,29 @@ export const Splash  = styled.section`
 
     h1{
         text-align: center;
-        color: white;
-        font-size: 75px;
+        font-size: 140px;
         font-family: serif;
+        color: white;
+        // color: #d1d1ff;
+        // color: #6e7277
+
+
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     }
 
     img {
         max-width: 100%; 
+    }
+
+    button {
+        align-self: center;
+        max-width: 30vw;
+        max-height: 10vh; 
+        height: 50px;
+        width: 150px;
+
+        border-radius:15px;
+        color: blue
     }
 
 `
@@ -51,7 +67,7 @@ export const Banner = styled.section`
     align-content: center; 
     height: 100vh;
 
-    background-color: #726D69;
+    background-color: #6e7277;
 
     h3 {
         text-align: center; 
@@ -66,6 +82,8 @@ export const Banner = styled.section`
         font-size: 25px
         font-family: serif;
     }
+
+    
     
 `
 
@@ -98,5 +116,3 @@ export const CTA = styled.section`
 
     background-color: #A87C69 ;
 `
-
-

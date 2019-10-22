@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-    Bod,
+    Body,
     Splash,
     Banner,
     Feature,
@@ -9,12 +9,15 @@ import {
     // SplashImg
 } from './styles'
 
+ // need a fixed sidebar so contact
+
 const Home = () => {
     return (
-        <Bod>
+        <Body>
             <Splash>
                 <h1 id='Name'>AGI</h1>
                 <p></p>
+                <button>Start</button>
             </Splash>
             <Banner>
                 <h3>AG international</h3>
@@ -29,7 +32,7 @@ const Home = () => {
             <CTA>
 
             </CTA>
-        </Bod>
+        </Body>
         
     )
 }
