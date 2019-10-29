@@ -24,13 +24,13 @@ const Home = () => {
                 <p>Web Enabled Real Estate Brokerage</p>
             </Banner>
             <Feature>
-
+                <h3>Feature</h3>
             </Feature>
             <Portfolio>
-
+                <h3>Portfolio</h3>
             </Portfolio>
             <CTA>
-
+                <h3>CTA</h3>
             </CTA>
         </Body>
         

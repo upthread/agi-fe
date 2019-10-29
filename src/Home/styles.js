@@ -67,7 +67,8 @@ export const Banner = styled.section`
     align-content: center; 
     height: 100vh;
 
-    background-color: #6e7277;
+    // background-color: #6e7277;
+    background-color: #393830;
 
     h3 {
         text-align: center; 
@@ -94,7 +95,8 @@ export const Feature = styled.section`
     align-content: center; 
     height: 100vh;
 
-    background-color: #9e554f;
+    // background-color: #9e554f;
+    background-color: #6e7277;
 `
 
 export const Portfolio = styled.section`
@@ -115,4 +117,5 @@ export const CTA = styled.section`
     height: 100vh;
 
     background-color: #A87C69 ;
+    // background-color: #9e554f;
 `
