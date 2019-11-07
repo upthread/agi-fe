@@ -8,6 +8,7 @@ import {
     CTA,
     // SplashImg
 } from './styles'
+import { Container, Row, Col } from 'reactstrap';
 
  // need a fixed sidebar so contact
 
