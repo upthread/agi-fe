@@ -15,9 +15,13 @@ const Home = () => {
     return (
         <Body>
             <Splash>
+                
                 <h1 id='Name'>AGI</h1>
-                <p></p>
-                <button>Start</button>
+                <p>A broker You can Trust</p>
+                <footer>
+					<a href="#banner" class="button style2 scrolly-middle">Get Started</a>
+                    </footer>
+                    <div className="line"></div>
             </Splash>
             <Banner>
                 <h3>AG international</h3>
