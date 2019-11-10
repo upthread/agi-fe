@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 export const Body = styled.section`
   background-color: #221e1f;
   background-image: url("images/overlay.png"), url("../../images/bg.jpg");
@@ -261,7 +262,41 @@ export const CTA = styled.section`
     flex-direction: column 
     justify-content: center;
     align-content: center; 
-    height: 100vh;
+    // height: 100vh;
 
     background-color: #A87C69 ;
+    .row{
+      margin:0 20px;
+      color:white;
+      text-decoration:none;
+      h5{
+        font-family: 'Literata', serif;
+        letter-spacing: 5px;
+      }
+      p{
+        font-family: 'Source Code Pro', monospace;
+      }
+      a{
+        color:#fff
+      }
+    }
+  
+    .address{
+      border-right: 1px solid white;
+    }
+    @media (max-width: 765px){
+      .address{
+        border-bottom: 1px solid white;
+        border-right: 0px solid white;
+        margin:5px
+      }
+    }
+    .footer{
+      margin:10px
+      border-top: 1px solid white;
+      p,a{
+        margin:10px
+        font-family: 'Comfortaa', cursive}
+    }
+
 `;
