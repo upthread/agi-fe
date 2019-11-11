@@ -264,7 +264,7 @@ export const CTA = styled.section`
     align-content: center; 
     // height: 100vh;
 
-    background-color: #A87C69 ;
+    background-color: #0A2654 ;
     .row{
       margin:0 20px;
       color:white;

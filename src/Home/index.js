@@ -26,6 +26,7 @@ import {
   ModalFooter
 } from "reactstrap";
 import data from "./data";
+import {Link} from 'react-router-dom'
 // need a fixed sidebar so contact
 
 const Home = props => {
@@ -112,9 +113,9 @@ const Home = props => {
                 </h4>
               </div>
               <div className="col-md-3 col-12">
-                <a href="join-agi.html" className="join-btn">
+                <Link to="/multi" className="join-btn">
                   Join AGI
-                </a>
+                </Link>
                 <div className="clearfix"></div>
               </div>
             </Row>
