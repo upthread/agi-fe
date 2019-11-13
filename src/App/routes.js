@@ -5,6 +5,7 @@ import { Route } from 'react-router-dom'
 import Template from '../Template'
 import Home from '../Home'
 import Registration from '../Registration'
+import Checkout from "../Stripe/Checkout"
 
 const routes = () => {
     return (
@@ -12,6 +13,7 @@ const routes = () => {
             <Route exact path='/'  component={Home} /> 
             <Route path='/templ'  component={Template} /> 
             <Route path='/multi'  component={Registration} /> 
+            <Route path="/stripe" component={Checkout}/>
             {/* <Route path='/'  component={} />  */}
             {/* <Route path='/'  component={} />  */}
             {/* <Route path='/'  component={} />  */}

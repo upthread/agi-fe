@@ -4,9 +4,12 @@ import axios from 'axios';
 import './App.css';
 import StripeCheckout from "react-stripe-checkout";
 
+
+
 var tokens = new PouchDB('tokens');
 
 function Checkout() {
+
 
   const [product] = React.useState({
     name:"TestProduct",
@@ -68,7 +71,7 @@ function Checkout() {
 
   return (
     
-      <div className="App">
+      <div className="Check">
 
       {/* I made a stripe account and these are the test and private keys. So far this template is using the testKey in line 34 but once we have a backend to authenticate we can test it in full. */}
 
