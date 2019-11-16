@@ -63,7 +63,7 @@ function Checkout() {
     //Here I'm trying out two different things, in Convert, I'm taking the info captured from the user, staging, and adding it to the pouchDB
     //In handleBackend, I'm stickly handling the backend portion of stripe billing and auth
 
-    // convert(token);
+    convert(token);
     handleBackend(token, product);
   }
 
