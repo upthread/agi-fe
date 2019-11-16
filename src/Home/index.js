@@ -74,6 +74,21 @@ const Home = props => {
                       <h4>{item.title}</h4>
                     </CardTitle>
                     <CardText>{item.content}</CardText>
+<<<<<<< HEAD
+=======
+                    {/* <Button onClick={toggle}> Read More</Button> */}
+                    <Modal
+                      isOpen={modal}
+                      backdrop={index > 3 ? true : false}
+                      toggle={toggle}
+                      className={className}
+                    >
+                      {console.log(item.title)}
+                      <ModalHeader toggle={toggle}>{item.title}</ModalHeader>
+                      <ModalBody>{item.content}</ModalBody>
+                      <ModalFooter></ModalFooter>
+                    </Modal>
+>>>>>>> cc6c0a8e2614b61aceada6f57a5614aa593c9650
                   </CardBody>
                 </Card>
               </Col>
