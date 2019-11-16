@@ -8990,12 +8990,11 @@ react-scripts@3.2.0:
   optionalDependencies:
     fsevents "2.0.7"
 
-<<<<<<< HEAD
 react-stripe-checkout@^2.6.3:
   version "2.6.3"
   resolved "https://registry.yarnpkg.com/react-stripe-checkout/-/react-stripe-checkout-2.6.3.tgz#3173a870b04e5a3c321a06d24cd53c6030111c45"
   integrity sha1-MXOocLBOWjwyGgbSTNU8YDARHEU=
-=======
+
 react-transition-group@^2.3.1:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-2.9.0.tgz#df9cdb025796211151a436c69a8f3b97b5b07c8d"
@@ -9015,7 +9014,6 @@ react-transition-group@^4.3.0:
     dom-helpers "^5.0.1"
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
->>>>>>> 0680a22180bcac9490d0676ee5a2c4b5e1013d31
 
 react@^16.10.2, react@^16.2.0:
   version "16.10.2"
