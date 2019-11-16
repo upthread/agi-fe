@@ -44,6 +44,11 @@ const Step1 = props => {
   //     }
   // }
 
+  const handleSubmit=e=>{
+    e.preventDefault();
+    console.log(input)
+  }
+
   const handleChange = e => {
     e.preventDefault();
     setInput({ ...input, [e.target.name]: e.target.value });
@@ -51,42 +56,8 @@ const Step1 = props => {
 
   return (
     <>
-      {/* <image src={photo} /> */}
-      <form onSubmit={"handleSubmit"}>
-        {/* <input 
-                    className="form_input"
-                    id = {name}
-                    type= 'text'
-                    value= { name || ''}
-                    placeholder= "Name"
-                    onChange = { e => {
-                        e.preventDefault()
-                        setName(e.target.value) 
-                    }}
-                    
-                />
-                <textarea
-                    className = "form_area"
-                    id = {description}
-                    type= "textarea"
-                    value= {description || ''}
-                    placeholder= "Description"
-                    onChange = { e => {
-                        e.preventDefault()
-                        setDescription(e.target.value) 
-                    }}
-                >
-                    Description
-                </textarea> 
-                <ImageUploader
-                    withIcon = {true}
-                    buttonText = 'Choose images'
-                    imgExtension={['.jpg', '.gif', '.png', '.gif']}
-                    maxFileSize={5242880}
-                    onChange = { e => {
-                        setPhoto( () => photo.concat(e))
-                    }}
-                /> */}
+      <form onSubmit={handleSubmit}>
+
         <Typography variant="h6" gutterBottom>
           Personal Details{" "}
         </Typography>
@@ -201,7 +172,7 @@ const Step1 = props => {
         </Grid>
 
         <BackBtn />
-        <NextBtn type="submit" value="submit" />
+        <NextBtn type="submit" value="submit"  />
       </form>
     </>
   );

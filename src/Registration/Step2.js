@@ -76,9 +76,13 @@ const Step2 = props => {
     e.preventDefault();
     setInput({ ...input, [e.target.name]: e.target.value });
   };
+  const handleSubmit = e => {
+    e.preventDefault();
+console.log(input)
+  };
   return (
     <div>
-      <form onSubmit={"handleSubmit"}>
+      <form onSubmit={handleSubmit}>
         <Typography variant="h6" gutterBottom>
         License and Legal Details     </Typography>
         <Grid container spacing={3}>
@@ -216,8 +220,10 @@ const Step2 = props => {
                   transfer expedited so you can get started straight away.</Typography>
         </Grid>
         </Grid>
-        <BackBtn />
-        <NextBtn />
+        <BackBtn/>
+        <NextBtn/>
+       {/* <button><BackBtn /></button> */}
+       {/* <button type="submit"> <NextBtn  /></button> */}
       </form>
     </div>
   );

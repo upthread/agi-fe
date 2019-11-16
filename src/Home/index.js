@@ -17,45 +17,31 @@ import {
   CardImg,
   CardText,
   CardBody,
-  CardTitle,
-  CardSubtitle,
-  Button,
-  Modal,
-  ModalHeader,
-  ModalBody,
-  ModalFooter
+  CardTitle
 } from "reactstrap";
 import data from "./data";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 // need a fixed sidebar so contact
 
 const Home = props => {
-  const { buttonLabel, className } = props;
-
-  const [modal, setModal] = useState(false);
-
-  const toggle = item => {
-    console.log(item.title);
-    setModal(!modal);
-  };
   return (
     <Body>
       <Splash>
         <h1 id="Name">AGI</h1>
         <p>A broker You can Trust</p>
         <footer>
-          <a href="#banner" className="button style2 scrolly-middle">
+          <a href="#Portfolio" className="button style2 ">
             Get Started
           </a>
         </footer>
         <div className="line"></div>
       </Splash>
-      <Banner>
+      {/* <Banner>
         <h3>AG international</h3>
         <p>Web Enabled Real Estate Brokerage</p>
       </Banner>
-      <Feature></Feature>
-      <Portfolio>
+      <Feature></Feature> */}
+      <Portfolio id="Portfolio">
         <Container>
           <Row>
             <Col className="assure" sm="12" xs="12" md={{ size: 6, offset: 3 }}>
@@ -71,34 +57,23 @@ const Home = props => {
             </Col>
           </Row>
           <Row>
-            {data.map((item, index) => (
+            {data.map(item => (
               <Col md="4" sm="6" xs="12">
                 <Card>
-                  <CardImg
-                    top
-                    width="100%"
-                    src={item.image}
-                    alt="Card image cap"
-                  />
-
+                  <div className="imgDiv">
+                    <CardImg
+                      top
+                      width="100%"
+                      src={item.image}
+                      alt="Card image cap"
+                    />
+                  </div>
                   <CardBody>
                     <CardTitle>
                       {" "}
                       <h4>{item.title}</h4>
                     </CardTitle>
                     <CardText>{item.content}</CardText>
-                    <Button onClick={toggle}> Read More</Button>
-                    <Modal
-                      isOpen={modal}
-                      backdrop={index > 3 ? true : false}
-                      toggle={toggle}
-                      className={className}
-                    >
-                      {console.log(item.title)}
-                      <ModalHeader toggle={toggle}>{item.title}</ModalHeader>
-                      <ModalBody>{item.content}</ModalBody>
-                      <ModalFooter></ModalFooter>
-                    </Modal>
                   </CardBody>
                 </Card>
               </Col>
@@ -215,14 +190,13 @@ const Home = props => {
           <Col sm="6" md="6" xs="12">
             <Row>
               <Col md="4" s="4" xs="4">
-               <a href="#"> Terms</a>
+                <a href="#"> Terms</a>
               </Col>
               <Col md="4" s="4" xs="4">
-              <a href="#">Privacy
-</a>
+                <a href="#">Privacy</a>
               </Col>
               <Col md="4" s="4" xs="4">
-             <a href="#">Disclaimer</a>
+                <a href="#">Disclaimer</a>
               </Col>
             </Row>
           </Col>

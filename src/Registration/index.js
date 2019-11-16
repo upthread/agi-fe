@@ -50,12 +50,11 @@ const useStyles = makeStyles(theme => ({
 const steps = [
   "Personal Details",
   "License and Legal Details",
-  "Confirm Information"
 ];
-
 const Registration = () => {
   const classes = useStyles();
   const [step, setStep] = useState(0);
+
 
   //Shared Components
   const NextBtn = () => {
@@ -65,7 +64,7 @@ const Registration = () => {
         color="primary"
         className={classes.button}
         onClick={() => {
-          step < 2 ? setStep(step + 1) : setStep(2);
+          step < 1 ? setStep(step + 1) : setStep(1);
         }}
       >
         {step === 1 ? "Submit" : "Next"}
@@ -152,20 +151,20 @@ const Registration = () => {
           </div>
         </FORM>
       );
-    case 2:
-      return (
-        <FORM>
-          <div className="form">
-            <Navigation />
-            <Step3
-              // db = {localDb}
-              className="step3"
-              back={BackBtn}
-              next={NextBtn}
-            />
-          </div>
-        </FORM>
-      );
+    // case 2:
+    //   return (
+    //     <FORM>
+    //       <div className="form">
+    //         <Navigation />
+    //         <Step3
+    //           // db = {localDb}
+    //           className="step3"
+    //           back={BackBtn}
+    //           next={NextBtn}
+    //         />
+    //       </div>
+    //     </FORM>
+    //   );
     default:
       return setStep(0);
   }

@@ -15,6 +15,7 @@ export const Body = styled.section`
   color: #3a3939;
   text-shadow: 0 0 0.5px rgba(58, 57, 57, 0.25);
   -webkit-text-stroke: 0.25px;
+  scroll-behavior: smooth;
 `;
 
 export const Splash = styled.section`
@@ -190,10 +191,20 @@ export const Portfolio = styled.section`
 	overflow: hidden;
   border-radius:0px;
   margin:5px;
+  height:450px;
 }
-  
+.imgDiv{
+  // height:100%;
+  overflow: hidden;
+
+}
+.scrolly-middle{
+  speed: 1000;
+    anchor: middle;
+}
        .card-img-top  {
         width: 100%;
+
         transform: scale(1);
         transition: .3s ease-in-out;
         border-top-left-radius: 0px;
@@ -263,8 +274,9 @@ export const CTA = styled.section`
     justify-content: center;
     align-content: center; 
     // height: 100vh;
-
-    background-color: #0A2654 ;
+    
+    // background-color: #0A2654 ;
+    background-color: #936B67 ;
     .row{
       margin:0 20px;
       color:white;
