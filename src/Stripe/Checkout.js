@@ -64,6 +64,7 @@ function Checkout() {
     //In handleBackend, I'm stickly handling the backend portion of stripe billing and auth
 
     convert(token);
+    //quick comment
     handleBackend(token, product);
   }
 
