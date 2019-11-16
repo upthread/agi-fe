@@ -87,7 +87,7 @@ const Home = props => {
                       <h4>{item.title}</h4>
                     </CardTitle>
                     <CardText>{item.content}</CardText>
-                    <Button onClick={toggle}> Read More</Button>
+                    {/* <Button onClick={toggle}> Read More</Button> */}
                     <Modal
                       isOpen={modal}
                       backdrop={index > 3 ? true : false}
