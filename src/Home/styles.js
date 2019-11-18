@@ -186,6 +186,9 @@ export const Portfolio = styled.section`
     ///Take care of this at media query either remove or set to 100vh
     height: 100%;
     background-color: #9e554f;
+    background-color: #726D69;
+    
+
 .card{
   width: 100%;
 	overflow: hidden;
@@ -277,6 +280,7 @@ export const CTA = styled.section`
     
     // background-color: #0A2654 ;
     background-color: #936B67 ;
+    background-color: #6e7277;
     .row{
       margin:0 20px;
       color:white;
