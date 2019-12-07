@@ -15,7 +15,7 @@ const routes = () => {
             <Route path='/templ'  component={Template} /> 
             <Route path='/multi'  component={Registration} /> 
             <Route path="/stripe" component={Checkout}/>
-            <Route path="/dashboard" component={Dashboard}/>
+            <Route path="/agent" component={Dashboard}/>
             {/* <Route path='/'  component={} />  */}
             {/* <Route path='/'  component={} />  */}
             {/* <Route path='/'  component={} />  */}

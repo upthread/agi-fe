@@ -31,7 +31,7 @@
 .Dash{
     background: #efeef3;
     display: flex;
-    border: 1px solid black;
+    
 }
 
 .Dash-item{
@@ -40,24 +40,45 @@
 
 .list{
     width: 20%;
+    
 }
 
 .listItem{
-    border: 1px solid white;
+    box-sizing: content-box;
+    border: 1px solid #efeef3;
+    background: #262560;
+    color: #bbc1de;
+}
+
+.listItem h3{
+    margin: 10%;
 }
 
 .kpis{
-    width: 55%;
-    border: 1px solid black;
+    width: 65%;
+}
+
+.kpis h1{
+    margin: 2% 4%;
+    color: #262560;
 }
 
 .kpi-cards{
     display: flex;
+    /* justify-content: space-around; */
     flex-wrap: wrap;
 }
 
 .kpi-card{
+    width: 250px;
+    height: 250px;
     background: white;
     text-align: center;
-    margin: 1%;
+    margin: 4%;
+    color: #91929e;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
+
