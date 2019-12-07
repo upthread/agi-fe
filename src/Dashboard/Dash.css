@@ -47,11 +47,14 @@
     box-sizing: content-box;
     border: 1px solid #efeef3;
     background: #262560;
-    color: #bbc1de;
 }
 
 .listItem h3{
     margin: 10%;
+}
+
+.listItem a{
+    color: #bbc1de;
 }
 
 .kpis{
