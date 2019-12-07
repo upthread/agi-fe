@@ -1,0 +1,63 @@
+.dashboard{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.Items{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.logo{
+    font-size: 3rem;
+}
+
+.Items a{
+    color: #262560 ;
+}
+
+.Home{
+
+}
+
+.Dash{
+    background: #efeef3;
+    display: flex;
+    border: 1px solid black;
+}
+
+.Dash-item{
+    margin: 3%;
+}
+
+.list{
+    width: 20%;
+}
+
+.listItem{
+    border: 1px solid white;
+}
+
+.kpis{
+    width: 55%;
+    border: 1px solid black;
+}
+
+.kpi-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kpi-card{
+    background: white;
+    text-align: center;
+    margin: 1%;
+}

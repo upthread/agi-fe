@@ -6,6 +6,7 @@ import Template from '../Template'
 import Home from '../Home'
 import Registration from '../Registration'
 import Checkout from "../Stripe/Checkout"
+import Dashboard from "../Dashboard/Dashboard"
 
 const routes = () => {
     return (
@@ -14,6 +15,7 @@ const routes = () => {
             <Route path='/templ'  component={Template} /> 
             <Route path='/multi'  component={Registration} /> 
             <Route path="/stripe" component={Checkout}/>
+            <Route path="/dashboard" component={Dashboard}/>
             {/* <Route path='/'  component={} />  */}
             {/* <Route path='/'  component={} />  */}
             {/* <Route path='/'  component={} />  */}
