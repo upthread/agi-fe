@@ -1,7 +1,16 @@
-.dashboard{
-    width: 90%;
-    margin: 0 auto;
+/* Universal CSS for every Dashboard page************** */
+
+.Dash-item{
+    margin: 3%;
+    width: 65%;
 }
+
+.Dash-item h1{
+    margin: 2% 4%;
+    color: #262560;
+}
+
+/* NavBar classes******************* */
 
 .Bar{
     display: flex;
@@ -24,23 +33,22 @@
     color: #262560 ;
 }
 
-.Home{
-
+/* Top Tier Dashboard Component**************** */
+.dashboard{
+    width: 90%;
+    margin: 0 auto;
 }
+
+/* DahboardFrame Components*********************** */
 
 .Dash{
     background: #efeef3;
     display: flex;
-    
-}
-
-.Dash-item{
-    margin: 3%;
 }
 
 .list{
     width: 20%;
-    
+    margin: 3%;
 }
 
 .listItem{
@@ -57,18 +65,15 @@
     color: #bbc1de;
 }
 
-.kpis{
-    width: 65%;
+.listItem a:hover{
+    text-decoration: none;
+    color: #e6ecf1;
 }
 
-.kpis h1{
-    margin: 2% 4%;
-    color: #262560;
-}
+/* DashboardPage exclusive classes********************** */
 
 .kpi-cards{
     display: flex;
-    /* justify-content: space-around; */
     flex-wrap: wrap;
 }
 

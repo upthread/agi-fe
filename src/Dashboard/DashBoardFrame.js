@@ -2,7 +2,8 @@ import React from "react"
 import {list, KPI} from "../Data/ListData";
 import {Route, Switch, Link} from 'react-router-dom';
 import DashBoardPage from './Pages/DashBoardPage';
-import MyDeals from "./Pages/MyDeals";
+import MyDealsPage from "./Pages/MyDealsPage";
+
 
 const Dash = (props)=>{
 
@@ -16,7 +17,7 @@ const Dash = (props)=>{
                 ))}
             </div>
             <Switch>
-                <Route path="/agent/mydeals" component={MyDeals}/>
+                <Route path="/agent/mydeals" component={MyDealsPage}/>
                 <Route path="/" component={DashBoardPage}/>
             </Switch>
         </div>

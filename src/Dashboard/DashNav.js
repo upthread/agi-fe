@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link, Route} from "react-router-dom";
-import Dash from "./Dash";
+import DashBoardFrame from "./DashBoardFrame";
 
 const DashNav = ()=>{
 
@@ -18,7 +18,7 @@ const DashNav = ()=>{
                     Home
                 </div>
             </div>
-            <Route to="/" component={Dash}/>
+            <Route to="/" component={DashBoardFrame}/>
         </div>
     );
 }
