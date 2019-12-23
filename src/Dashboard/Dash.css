@@ -144,6 +144,68 @@
 }
 
 
+/* AddDeals page exclusive*****************88 */
+
+.Address{
+    border: 1px solid black;
+    margin: 2% 4%;
+}
+
+.Address input{
+    border: none;
+}
+
+.Address hr{
+    border-color: #767580;
+}
+
+.Address h5{
+    color: #363379;
+}
+#addressBar{
+    width: 100%;
+    padding: 2%;
+    margin:1% 0;
+}
+
+.Address-flex input{
+    padding: 10% 0;
+    margin: 5% 0;
+}
+.Address-flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.Address .Address-radio h5{
+    display: inline;
+}
+
+.Address-radio label{
+    display: inline;
+}
+
+.Buyer-Seller{
+    width: 48%;
+}
+
+.Buyer-Seller input{
+    width: 100%;
+    padding-left: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
