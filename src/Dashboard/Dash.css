@@ -3,6 +3,7 @@
 .Dash-item{
     margin: 3%;
     width: 65%;
+    border: 1px solid red;
     /* border: 1px solid black; */
 }
 
@@ -11,12 +12,18 @@
     color: #262560;
 }
 
+.Dash-item h3{
+    margin-left: 4%;
+    color: #828094;
+}
+
 /* NavBar classes******************* */
 
 .Bar{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    border: 1px solid blue;
 }
 
 .Items{
@@ -38,6 +45,7 @@
 .dashboard{
     width: 90%;
     margin: 0 auto;
+    border: 1px solid black;
 }
 
 /* DahboardFrame Components*********************** */
@@ -98,11 +106,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .selectors{
-    width: 60%;
-    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    width: 45%;
+    
+    margin-right: 4%;
 }
 
 .selectors select{
@@ -119,6 +131,16 @@
     background: #48ac77;
     color:#fffff2;
     padding: 1% 3%;
+
+}
+
+.Deals{
+    background:#ffffff;
+    margin: 2% 4%;
+}
+
+.Deals h3{
+    padding: 3% 0;
 }
 
 
