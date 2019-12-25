@@ -4,6 +4,7 @@ import {Route, Switch, Link} from 'react-router-dom';
 import DashBoardPage from './Pages/DashBoardPage';
 import MyDealsPage from "./Pages/MyDealsPage";
 import AddDealsPage from "./Pages/AddDealPage";
+import STS from "./Pages/100Steps";
 
 
 const Dash = (props)=>{
@@ -20,6 +21,7 @@ const Dash = (props)=>{
             <Switch>
                 <Route path = "/agent/adddeal" component={AddDealsPage}/>
                 <Route path="/agent/mydeals" component={MyDealsPage}/>
+                <Route path="/agent/100StepsToSuccess" component={STS}/>
                 <Route path="/" component={DashBoardPage}/>
             </Switch>
         </div>

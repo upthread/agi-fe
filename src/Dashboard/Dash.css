@@ -147,7 +147,7 @@
 /* AddDeals page exclusive*****************88 */
 
 .Address{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 2% 4%;
 }
 
@@ -168,17 +168,37 @@
     margin:1% 0;
 }
 
-.Address-flex input{
-    padding: 10% 0;
-    margin: 5% 0;
-}
+
 .Address-flex{
     display: flex;
     justify-content: space-between;
 }
 
+.Triple-Hold{
+    width: 32%;
+    margin: 1% 0;
+}
 
-.Address .Address-radio h5{
+.Triple-Flex input{
+    width: 100%;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.Double-Hold{
+    width: 49%;
+    margin: 1% 0;
+}
+
+.Double-Hold input{
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.Address-radio h5{
     display: inline;
 }
 
@@ -186,33 +206,6 @@
     display: inline;
 }
 
-.Buyer-Seller{
-    width: 48%;
-}
-
-.Buyer-Seller input{
-    width: 100%;
-    padding-left: 5%;
-}
-
-.Address-Details{
-    width: 100%;
-}
-
-.Address-Details input{
-    width: 100%;
-    padding-left: 10%;
-}
-
-.Address-Date{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-.Address-Date div{
-    margin: 2% 0;
-}
 
 .Button-Flex{
     display: flex;
@@ -226,6 +219,48 @@
     padding: 2% 6%;
     border-radius: 30px;
 }
+
+/* 100 steps to success**************** */
+
+.Step-Flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Step-Flex button{
+    border-radius: 50%;
+    border: none;
+    background: white;
+}
+
+.Step-HR hr{
+    border: 1.5px solid white;
+    
+}
+
+.cuck{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+
+#cuckh2{
+    color: #c8c7d4 ;
+}
+
+.Step-Ball{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+    background: #c7c6d5;
+    padding: 5%;
+    text-align: center;
+
+}
+
 
 
 

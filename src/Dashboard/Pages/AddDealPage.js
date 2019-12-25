@@ -11,23 +11,23 @@ const AddDealPage = ()=>{
                         <h5>Property Address</h5>
                         <label htmlFor="address"></label>
                         <input name="address" id="addressBar" type="text" placeholder="Enter Property Details Here"/>
-                        <div className="Address-flex" >
-                            <div>
-                                <div className="Address-Details">
+                        <div className="Address-flex">
+                            <div className="Triple-Hold">
+                                <div className="Triple-Flex">
                                     <label htmlFor="Unit Number">
                                     </label>
                                     <input name="Unit Number" type="text" placeholder="Unit Number"/>
                                 </div>
                             </div>
-                            <div>
-                                <div className="Address-Details">
+                            <div className="Triple-Hold">
+                                <div className="Triple-Flex">
                                     <label htmlFor="Street Number">
                                     </label>
                                     <input name="Street Number" type="text" placeholder="Street Number"/>
                                 </div>
                             </div>
-                            <div>
-                                <div className="Address-Details">
+                            <div className="Triple-Hold">
+                                <div className="Triple-Flex">
                                     <label htmlFor="City">
                                     </label>
                                     <input name="City" type="text" placeholder="City"/>
@@ -35,21 +35,21 @@ const AddDealPage = ()=>{
                             </div>
                         </div>
                         <div className="Address-flex" >
-                            <div>
-                                <div className="Address-Details">
+                            <div className="Triple-Hold">
+                                <div className="Triple-Flex">
                                     <label htmlFor="State"></label>
                                     <input name="State" type="text" placeholder="State"/>
                                 </div>
                             </div>
-                            <div>
-                                <div className="Address-Details">
+                            <div className="Triple-Hold">
+                                <div className="Triple-Flex">
                                 <label htmlFor="Zip Code">
                                 </label>
                                     <input name="Zip Code" type="text" placeholder="Zip Code"/>
                                 </div>
                             </div>
-                            <div>
-                                <div className="Address-Details">
+                            <div className="Triple-Hold">
+                                <div className="Triple-Flex">
                                 <label htmlFor="Zip Code">
                                 </label>
                                     <input name="Zip Code" type="text" placeholder="Zip Code"/>
@@ -80,10 +80,10 @@ const AddDealPage = ()=>{
                             </div>
                         </div>
                         <div className="Address-flex">
-                            <div className="Buyer-Seller">
+                            <div className="Double-Hold">
                                 <input type="text" placeholder="Buyer Name"/>
                             </div>
-                            <div className="Buyer-Seller">
+                            <div className="Double-Hold">
                                 <input type="text" placeholder="Seller Name"/>
                             </div>
                         </div>
@@ -99,18 +99,24 @@ const AddDealPage = ()=>{
         <hr/>
 
                     <section>{/*The third section*************** */}
-                        <div className="Address-Date">
-                            <div>
-                                <h5>Contract Date</h5>
-                                <input type="date"/>
+                        <div className="Address-flex">
+                            <div className="Triple-Hold">
+                                <div className="Triple-Flex">
+                                    <h5>Contract Date</h5>
+                                    <input type="date"/>
+                                </div>
                             </div>
-                            <div>
-                                <h5>Expected CLosing Date</h5>
-                                <input type="date"/>
+                            <div className="Triple-Hold">
+                                <div className="Triple-Flex">
+                                    <h5>Expected Closing Date</h5>
+                                    <input type="date"/>
+                                </div>
                             </div>
-                            <div>
-                                <h5>Sale Price or Contract Amount</h5>
-                                <input type="date"/>
+                            <div className="Triple-Hold">
+                                <div className="Triple-Flex">
+                                    <h5>Sale Price or Contract Amount</h5>
+                                    <input type="text" placeholder="e.g 300,000"/>
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -119,30 +125,30 @@ const AddDealPage = ()=>{
                     
                     <section>{/**the Fourth section88888888888888888 */}
                         <div className="Address-flex">
-                            <div className="Buyer-Seller">
+                            <div className="Double-Hold">
                                 <h5>Commission (%)</h5>
                                 <input type='text' placeholder="Commission (%)"/>
                             </div>
-                            <div className="Buyer-Seller">
+                            <div className="Double-Hold">
                                 <h5>Commission($)</h5>
                                 <input type= "text" placeholder="Commission ($)"/>
                             </div>
                         </div>
                         <div className="Address-flex">
-                            <div>
-                                <div className="Address-Details">
+                            <div className="Triple-Hold">
+                                <div className="Triple-Flex">
                                     <h5>Transaction Fee(%)</h5>
                                     <input type="text" placeholder="eg. 80"/>
                                 </div>
                             </div>
-                            <div>
-                                <div className="Address-Details">
+                            <div className="Triple-Hold">
+                                <div className="Triple-Flex">
                                     <h5>AGI Transaction Fee($)</h5>
                                     <input type="text" placeholder="eg. 80"/>
                                 </div>
                             </div>
-                            <div>
-                                <div className="Address-Details">
+                            <div className="Triple-Hold">
+                                <div className="Triple-Flex">
                                     <h5>Net To Agent($)</h5>
                                     <input type="text" placeholder="eg. 80"/>
                                 </div>
