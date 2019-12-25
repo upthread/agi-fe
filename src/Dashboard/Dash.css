@@ -175,7 +175,6 @@
 .Address-flex{
     display: flex;
     justify-content: space-between;
-    
 }
 
 
@@ -194,6 +193,38 @@
 .Buyer-Seller input{
     width: 100%;
     padding-left: 5%;
+}
+
+.Address-Details{
+    width: 100%;
+}
+
+.Address-Details input{
+    width: 100%;
+    padding-left: 10%;
+}
+
+.Address-Date{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Address-Date div{
+    margin: 2% 0;
+}
+
+.Button-Flex{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Button-Flex button{
+    border: none;
+    background: #45ad77;
+    color:#fffff4;
+    padding: 2% 6%;
+    border-radius: 30px;
 }
 
 

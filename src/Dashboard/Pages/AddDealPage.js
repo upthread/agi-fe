@@ -5,44 +5,55 @@ const AddDealPage = ()=>{
         <div className = "Dash-item">
             <h1>Add Deal</h1>
             <div className="Address">
-                <h5>Property Address</h5>
                 <form>
 
                     <section>{/* ***********here is the tope third section */}
+                        <h5>Property Address</h5>
                         <label htmlFor="address"></label>
                         <input name="address" id="addressBar" type="text" placeholder="Enter Property Details Here"/>
                         <div className="Address-flex" >
                             <div>
-                                <label htmlFor="Unit Number">
-                                <input name="Unit Number" type="text" placeholder="Unit Number"/>
-                                </label>
+                                <div className="Address-Details">
+                                    <label htmlFor="Unit Number">
+                                    </label>
+                                    <input name="Unit Number" type="text" placeholder="Unit Number"/>
+                                </div>
                             </div>
                             <div>
-                                <label htmlFor="Street Number">
-                                <input name="Street Number" type="text" placeholder="Street Number"/>
-                                </label>
+                                <div className="Address-Details">
+                                    <label htmlFor="Street Number">
+                                    </label>
+                                    <input name="Street Number" type="text" placeholder="Street Number"/>
+                                </div>
                             </div>
                             <div>
-                                <label htmlFor="City">
-                                <input name="City" type="text" placeholder="City"/>
-                                </label>
+                                <div className="Address-Details">
+                                    <label htmlFor="City">
+                                    </label>
+                                    <input name="City" type="text" placeholder="City"/>
+                                </div>
                             </div>
                         </div>
                         <div className="Address-flex" >
                             <div>
-                                <label htmlFor="State">
-                                <input name="State" type="text" placeholder="State"/>
-                                </label>
+                                <div className="Address-Details">
+                                    <label htmlFor="State"></label>
+                                    <input name="State" type="text" placeholder="State"/>
+                                </div>
                             </div>
                             <div>
+                                <div className="Address-Details">
                                 <label htmlFor="Zip Code">
-                                <input name="Zip Code" type="text" placeholder="Zip Code"/>
                                 </label>
+                                    <input name="Zip Code" type="text" placeholder="Zip Code"/>
+                                </div>
                             </div>
                             <div>
-                                <label htmlFor="Country">
-                                <input name="Country" type="text" placeholder="Country"/>
+                                <div className="Address-Details">
+                                <label htmlFor="Zip Code">
                                 </label>
+                                    <input name="Zip Code" type="text" placeholder="Zip Code"/>
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -52,7 +63,7 @@ const AddDealPage = ()=>{
                     <section>{/***********Here is the second section*/}
                         <div className="Address-flex">
                             <div className="Address-radio">
-                                <h5>Trasaction Type:</h5>
+                                <h5>Transaction Type:</h5>
                                 <input type="radio"  name="radio"/>
                                 <label class="container">Rental</label>
                                 <input type="radio"  name="radio"/>
@@ -87,6 +98,62 @@ const AddDealPage = ()=>{
 
         <hr/>
 
+                    <section>{/*The third section*************** */}
+                        <div className="Address-Date">
+                            <div>
+                                <h5>Contract Date</h5>
+                                <input type="date"/>
+                            </div>
+                            <div>
+                                <h5>Expected CLosing Date</h5>
+                                <input type="date"/>
+                            </div>
+                            <div>
+                                <h5>Sale Price or Contract Amount</h5>
+                                <input type="date"/>
+                            </div>
+                        </div>
+                    </section>
+
+        <hr/>
+                    
+                    <section>{/**the Fourth section88888888888888888 */}
+                        <div className="Address-flex">
+                            <div className="Buyer-Seller">
+                                <h5>Commission (%)</h5>
+                                <input type='text' placeholder="Commission (%)"/>
+                            </div>
+                            <div className="Buyer-Seller">
+                                <h5>Commission($)</h5>
+                                <input type= "text" placeholder="Commission ($)"/>
+                            </div>
+                        </div>
+                        <div className="Address-flex">
+                            <div>
+                                <div className="Address-Details">
+                                    <h5>Transaction Fee(%)</h5>
+                                    <input type="text" placeholder="eg. 80"/>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="Address-Details">
+                                    <h5>AGI Transaction Fee($)</h5>
+                                    <input type="text" placeholder="eg. 80"/>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="Address-Details">
+                                    <h5>Net To Agent($)</h5>
+                                    <input type="text" placeholder="eg. 80"/>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+        <hr/>
+                    <div className="Button-Flex">
+                        <button type="submit"><b>Submit</b></button>
+                    </div>
                 </form>
             </div>
         </div>
