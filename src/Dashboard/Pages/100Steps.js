@@ -1,21 +1,13 @@
 import React from 'react';
-const STS = ()=>{
+import ParentCard from "../Cards/100Parent";
+const STS = (props)=>{
+    const lessons = props.lessons;
     return(
         <div className = "Dash-item">
             <h1>100 Steps to Success</h1>
-            <div className="Step-HR">
-                <hr/>
-                    <div className="Step-Flex">
-                            <div className="cuck">
-                                <div className="Step-Ball">
-                                    <h2>1-4</h2>
-                                </div>
-                                <h2 id="cuckh2">Agent Admin</h2>
-                            </div>
-                            <button type='button'>&#43;</button>
-                    </div>
-                <hr/>
-            </div>
+            {lessons.map((les,index)=>(
+                <ParentCard key={index} stepNumber={les.stepNumber} title={les.title} videos={les.videos}/>
+            ))}
 
         </div>
     );

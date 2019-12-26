@@ -261,6 +261,14 @@
 
 }
 
+.HideMe{
+    display: none;
+}
+
+.Visible{
+    display:block;
+}
+
 
 
 

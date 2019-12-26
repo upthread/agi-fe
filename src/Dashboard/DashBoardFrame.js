@@ -1,5 +1,6 @@
 import React from "react"
 import {list, KPI} from "../Data/ListData";
+import {lessons} from "../Data/100StepsData";
 import {Route, Switch, Link} from 'react-router-dom';
 import DashBoardPage from './Pages/DashBoardPage';
 import MyDealsPage from "./Pages/MyDealsPage";
@@ -21,7 +22,7 @@ const Dash = (props)=>{
             <Switch>
                 <Route path = "/agent/adddeal" component={AddDealsPage}/>
                 <Route path="/agent/mydeals" component={MyDealsPage}/>
-                <Route path="/agent/100StepsToSuccess" component={STS}/>
+                <Route path="/agent/100StepsToSuccess" render={(props)=><STS {...props} lessons={lessons}/>}/>
                 <Route path="/" component={DashBoardPage}/>
             </Switch>
         </div>
