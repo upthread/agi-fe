@@ -1,0 +1,317 @@
+/* Universal CSS for every Dashboard page************** */
+
+.Dash-item{
+    margin: 3%;
+    width: 65%;
+    border: 1px solid red;
+    /* border: 1px solid black; */
+}
+
+.Dash-item h1{
+    margin-left: 4%;
+    color: #262560;
+}
+
+.Dash-item h3{
+    margin-left: 4%;
+    color: #828094;
+}
+
+
+
+/* NavBar classes******************* */
+
+.Bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border: 1px solid blue;
+}
+
+.Items{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.logo{
+    font-size: 3rem;
+}
+
+.Items a{
+    color: #262560 ;
+}
+
+/* Top Tier Dashboard Component**************** */
+.dashboard{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+/* DahboardFrame Components*********************** */
+
+.Dash{
+    background: #efeef3;
+    display: flex;
+    align-items: flex-start;
+}
+
+.list{
+    width: 20%;
+    margin: 3%;
+}
+
+.listItem{
+    box-sizing: content-box;
+    border: 1px solid #efeef3;
+    background: #262560;
+}
+
+.listItem h3{
+    margin: 10%;
+}
+
+.listItem a{
+    color: #bbc1de;
+}
+
+.listItem a:hover{
+    text-decoration: none;
+    color: #e6ecf1;
+}
+
+/* DashboardPage exclusive classes********************** */
+
+.kpi-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kpi-card{
+    width: 250px;
+    height: 250px;
+    background: white;
+    text-align: center;
+    margin: 4%;
+    color: #91929e;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* MyDealsPage exclusive class************************ */
+
+.Deals-selectors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.selectors{
+    display: flex;
+    justify-content: flex-end;
+    width: 45%;
+    
+    margin-right: 4%;
+}
+
+.selectors select{
+    border: none;
+    background: #ffffff;
+    color: #4b4d4f;
+    margin: 0 .5%;
+    padding: 1% 3%;
+}
+
+.selectors button{
+    margin-left: 2%;
+    border: none;
+    background: #48ac77;
+    color:#fffff2;
+    padding: 1% 3%;
+
+}
+
+.Deals{
+    background:#ffffff;
+    margin: 2% 4%;
+}
+
+.Deals h3{
+    padding: 3% 0;
+}
+
+
+/* AddDeals page exclusive*****************88 */
+
+.Address{
+    /* border: 1px solid black; */
+    margin: 2% 4%;
+}
+
+.Address input{
+    border: none;
+}
+
+.Address hr{
+    border-color: #767580;
+}
+
+.Address h5{
+    color: #363379;
+}
+#addressBar{
+    width: 100%;
+    padding: 2%;
+    margin:1% 0;
+}
+
+
+.Address-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Triple-Hold{
+    width: 32%;
+    margin: 1% 0;
+}
+
+.Triple-Flex input{
+    width: 100%;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.Double-Hold{
+    width: 49%;
+    margin: 1% 0;
+}
+
+.Double-Hold input{
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.Address-radio h5{
+    display: inline;
+}
+
+.Address-radio label{
+    display: inline;
+}
+
+
+.Button-Flex{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Button-Flex button{
+    border: none;
+    background: #45ad77;
+    color:#fffff4;
+    padding: 2% 6%;
+    border-radius: 30px;
+}
+
+/* 100 steps to success**************** */
+
+.Step-Flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Step-Flex button{
+    border-radius: 50%;
+    border: none;
+    background: white;
+}
+
+.Step-HR hr{
+    border: 1.5px solid white;
+    
+}
+
+.cuck{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+
+.Header{
+    color: #c8c7d4;
+}
+
+
+.Step-Ball{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+    background: #c7c6d5;
+    padding: 5%;
+    text-align: center;
+
+}
+
+.HideMe{
+    display: none;
+}
+
+.Visible{
+    display:block;
+}
+
+.Child-Flex{
+    margin-left: 6.5%;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.Child-Flex h3{
+    margin: 0;
+    color: #262560;
+}
+
+.Child-Hold{
+    width: 45%;
+    margin: 1% 0;
+}
+
+.Active{
+    color: #262560;
+}
+
+.Active-background{
+    background: #262560;
+}
+
+.Child-Video{
+    margin: 0 auto;
+    color: #42ab94;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
