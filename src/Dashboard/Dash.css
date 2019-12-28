@@ -17,6 +17,8 @@
     color: #828094;
 }
 
+
+
 /* NavBar classes******************* */
 
 .Bar{
@@ -246,9 +248,10 @@
     align-items: center;
 }
 
-#cuckh2{
-    color: #c8c7d4 ;
+.Header{
+    color: #c8c7d4;
 }
+
 
 .Step-Ball{
     width: 70px;
@@ -267,6 +270,35 @@
 
 .Visible{
     display:block;
+}
+
+.Child-Flex{
+    margin-left: 6.5%;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.Child-Flex h3{
+    margin: 0;
+    color: #262560;
+}
+
+.Child-Hold{
+    width: 45%;
+    margin: 1% 0;
+}
+
+.Active{
+    color: #262560;
+}
+
+.Active-background{
+    background: #262560;
+}
+
+.Child-Video{
+    margin: 0 auto;
+    color: #42ab94;
 }
 
 
